@@ -17,6 +17,11 @@ const routes = [
     name: 'TodoApp',
     component: () => import('../views/TodoAppView.vue'),
   },
+  {
+    path: '/counter',
+    name: 'CounterApp',
+    component: () => import('../views/CounterView.vue'),
+  },
 ]
 
 const router = createRouter({
